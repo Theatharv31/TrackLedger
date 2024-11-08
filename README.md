@@ -1,3 +1,31 @@
+# TrackLedger
+
+TrackLedger is a blockchain-based solution for supply chain management that enables secure and transparent tracking of shipments, creating a decentralized record of each step in the supply chain. Built on the Ethereum network, TrackLedger facilitates payment and shipment tracking while ensuring data integrity and security.
+
+## Features
+
+- **Shipment Creation**: Generate shipment records to initiate tracking.
+- **Real-Time Tracking**: Monitor the shipment's journey through the supply chain.
+- **Status Updates**: Receive real-time updates on shipment status, from dispatch to delivery.
+- **Decentralized Management**: Eliminates the need for intermediaries, ensuring data security and transparency.
+- **Ethereum Payments**: Integrates Ethereum for decentralized and secure payments.
+
+## Tech Stack
+
+- **Blockchain**: Ethereum, using smart contracts for decentralized functionality.
+- **Frontend**: Next.js with React for a modern user interface.
+- **Styling**: Tailwind CSS for clean and responsive UI design.
+- **Wallet Integration**: Connects to users' Ethereum wallets to facilitate seamless transactions.
+
+## How to Get Started
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/Theatharv31/TrackLedger.git
+   cd TrackLedger
+
+
 #TrackLedger
 TrackLedger is a blockchain-based solution for supply chain management that enables secure and transparent tracking of shipments, creating a decentralized record of each step in the supply chain. Built on the Ethereum network, TrackLedger facilitates payment and shipment tracking while ensuring data integrity and security.
 
