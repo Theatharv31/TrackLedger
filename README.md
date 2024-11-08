@@ -1,109 +1,56 @@
+#TrackLedger
+TrackLedger is a blockchain-based solution for supply chain management that enables secure and transparent tracking of shipments, creating a decentralized record of each step in the supply chain. Built on the Ethereum network, TrackLedger facilitates payment and shipment tracking while ensuring data integrity and security.
 
-# Building and Deploying a Blockchain Supply Chain Management DApp
+Features
+Shipment Creation: Generate shipment records to initiate tracking.
+Real-Time Tracking: Monitor the shipment's journey through the supply chain.
+Status Updates: Receive real-time updates on shipment status, from dispatch to delivery.
+Decentralized Management: Eliminates the need for intermediaries, ensuring data security and transparency.
+Ethereum Payments: Integrates Ethereum for decentralized and secure payments.
+Tech Stack
+Blockchain: Ethereum, using smart contracts for decentralized functionality.
+Frontend: Next.js with React for a modern user interface.
+Styling: Tailwind CSS for clean and responsive UI design.
+Wallet Integration: Connects to users' Ethereum wallets to facilitate seamless transactions.
+How to Get Started
+Clone the Repository:
 
-Building and Deploying a Blockchain Supply Chain Management DApp
+bash
+Copy code
+git clone https://github.com/Theatharv31/TrackLedger.git
+cd TrackLedger
+Install Dependencies:
 
-Blockchain Supply chain management plays a critical role in ensuring efficient operations and maintaining consumer trust. This project focuses on developing and deploying a decentralized application (DApp) powered by blockchain technology to streamline supply chain management processes.
+bash
+Copy code
+npm install
+Run the Development Server:
 
-Our DApp utilizes the inherent transparency and immutability of blockchain to provide a secure and transparent platform for tracking goods at every stage of the supply chain. Leveraging smart contracts, the DApp automates various tasks such as verifying product authenticity, recording transactions, and managing inventory in real-time
+bash
+Copy code
+npm run dev
+Open http://localhost:3000 in your browser to view the app.
 
-## Project Overview
+Deploying the Smart Contracts: (Optional, if you want to deploy the contract to your own network)
 
-![alt text](https://www.daulathussain.com/wp-content/uploads/2023/09/tracking.png)
-
-## Instruction
-
-Kindly follow the following Instructions to run the project in your system and install the necessary requirements
-
-
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/supply-chain-management-project-source-code)
-
-#### Setup Video
-- [Final Code Setup video](https://www.youtube.com/watch?v=LlX-39ywxsU)
-
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
-```
-
-#### Install Vs Code Editor
-
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
-
-#### NodeJs & NPM Version
-
-```https://nodejs.org/en/download
-  NodeJs: v18.12.1
-  NPM: 8.19.2
-```
-
-#### Clone Starter File
-
-```https://github.com/daulathussain/Airdrop-Crypto-Starter-File
-  GET: Project Starter File Download
-```
-
-
-All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
-
-## Final Code Instruction
-
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
-
-#### Setup Video
-
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
-```
-
-#### Final Source Code
-
-```https://www.theblockchaincoders.com/SourceCode
-  Download the Final Source Code
-```
-
-#### Install Vs Code Editor
-
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
-
-#### NodeJs & NPM Version
-
-```https://nodejs.org/en/download
-  NodeJs: v18.12.1
-  NPM: 8.19.2
-```
-
-
-#### Test Faucets
-
-Alchemy will provide you with some free test faucets which you can transfer to your wallet address for deploying the contract
-
-```https://www.alchemy.com/faucets
-  Get: Free Test Faucets
-```
-
-#### RemixID
-
-We are using RemixID for deploying the contract and generation of the ABI in the project, but you can use any other tools like Hardhat, etc.
-
-```https://remix-project.org
-  OPEN: RemixID
-```
-
-#### Polygon Mumbai
-
-```https://mumbai.polygonscan.com/
-  OPEN: Polygon Mumbai
-```
-
-## Important Links
-
-- [Get Pro Blockchain Developer Course](https://www.theblockchaincoders.com/pro-nft-marketplace)
-- [Support Creator](https://bit.ly/Support-Creator)
-- [All Projects Source Code](https://www.theblockchaincoders.com/SourceCode)
+Ensure you have a configured .env file with your Infura endpoint, private key, and other required environment variables.
+Deploy the contract using Hardhat or any other preferred deployment tool.
+Code Structure
+Frontend: Contains the Next.js components and pages.
+Smart Contracts: Ethereum smart contracts for managing shipments and payments.
+Context Management: Uses React context for managing application state, including wallet connections.
+Prerequisites
+Node.js v18.12.1
+npm v8.19.2
+Specific dependencies:
+ethers v5.7.2
+hardhat v2.13.0
+next v13.2.4
+react v18.2.0
+react-dom v18.2.0
+web3modal v1.9.12
+Contributing
+We welcome contributions! Please fork the repository and create a pull request with your changes. Ensure to follow our contribution guidelines and code of conduct.
 
 
 ## Authors
